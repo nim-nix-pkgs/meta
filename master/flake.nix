@@ -11,6 +11,7 @@
   inputs.src-meta-master.ref   = "refs/heads/master";
   inputs.src-meta-master.owner = "RainbowAsteroids";
   inputs.src-meta-master.repo  = "meta";
+  inputs.src-meta-master.dir   = "";
   inputs.src-meta-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
